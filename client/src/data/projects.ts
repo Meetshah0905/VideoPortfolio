@@ -238,7 +238,7 @@ export const projectsData: Project[] = [
       "Educational Content"
     ],
     video: {
-      url: "https://youtu.be/TYXRbtMKIYg",
+      url: "https://youtu.be/eTXberUCPAs",
       type: "youtube"
     }
   }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCard";
 import { projectsData } from "../data/projects";
@@ -117,7 +117,7 @@ interface FilterButtonProps {
   children: React.ReactNode;
 }
 
-const FilterButton: React.FC<FilterButtonProps> = ({ active, onClick, children }) => (
+const FilterButton = ({ active, onClick, children }: FilterButtonProps) => (
   <button
     onClick={onClick}
     className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
